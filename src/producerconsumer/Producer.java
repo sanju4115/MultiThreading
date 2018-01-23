@@ -12,8 +12,6 @@ public class Producer implements Runnable {
 		this.sharedQueue = sharedQueue;
 	}
 
-
-
 	@Override
 	public void run() {
 		while(true) {
